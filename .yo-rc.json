@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Patrick Holl",
+      "authorEmail": "patrick.holl@tum.de",
+      "authorUrl": "https://www.patrick-holl.com"
+    }
+  }
+}
