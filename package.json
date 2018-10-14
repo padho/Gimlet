@@ -1,5 +1,5 @@
 {
-  "name": "apache-drill-node",
+  "name": "@padho/gimlet",
   "version": "0.0.0",
   "description": "A JavaScript client for Apache Drill",
   "homepage": "",
@@ -68,7 +68,7 @@
     "precommit": "lint-staged",
     "test": "jest"
   },
-  "repository": "padho/apache-drill-node",
+  "repository": "padho/gimlet",
   "jest": {
     "testEnvironment": "node"
   },
