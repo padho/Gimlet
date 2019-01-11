@@ -4,15 +4,18 @@
 ## Installation
 
 ```sh
-$ npm install --save apache-drill-node
+$ npm i @padho/gimlet
 ```
 
 ## Usage
 
 ```js
-const apacheDrillNode = require('apache-drill-node');
+const {Gimlet} = require('@padho/gimlet');
 
-apacheDrillNode('Rainbow');
+let gimlet = new Gimlet({});
+let data = gimlet.query(
+'select * from dfs.`/Users/Patrick/Downloads/3722_geodatendeutschland_1001_20180710.csv` limit 3'
+);
 ```
 ## License
 
