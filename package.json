@@ -1,6 +1,6 @@
 {
   "name": "@padho/gimlet",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A JavaScript client for Apache Drill",
   "homepage": "",
   "author": {
